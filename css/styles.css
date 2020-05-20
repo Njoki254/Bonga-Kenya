@@ -1,6 +1,4 @@
-* {
-   
-}
+
 
 header {
     background-color: #F88A07;
@@ -12,7 +10,10 @@ header::after {
     clear: both;
 
 }
-
+.logo{
+    color: black;
+    
+}
 nav {
     float: right;
 }
@@ -46,6 +47,7 @@ nav a::before {
     position: absolute;
     top: 0;
     width: 0;
+    transition: all ease-in-out 250ms;
 }
 nav a:hover::before {
     width: 100%;

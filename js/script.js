@@ -12,7 +12,7 @@ var famousPeople = {
     9: "Mandela",
     9: "Tom Mboya",
     10: "Ruto",
-    11: "Atwoli" 
+    11: "Atwoli",
     12: "Jeff",
     13: "Koinange",
     14: "Eric Omondi",
@@ -29,10 +29,10 @@ var musicians = {
     3:"Elani",
     4:"Burna Boy",
     5:"Beyonce",
-    6:"Willy Paul"
+    6:"Willy Paul",
     7:"JuaCali",
     8:"Wahu",
-    9:"King Kaka"
+    9:"King Kaka",
     10:"Diamond",
     11:"Juliani",
     12: "Femione",
@@ -46,8 +46,8 @@ var musicians = {
 
 var music = {
     1: "wamlambez", 
-    2: "Bababa Banjuka…" 
-    3: "accelerator" 
+    2: "Bababa Banjuka…",
+    3: "accelerator", 
     4: "KDF", 
     5: "Bazokizo",
     6: "Utawezana",
@@ -70,7 +70,7 @@ var animals = {
     13:"Chicken"
 };
 
-var cities = {}
+var cities = {
     1:"Nairobi",
     2: "Mombasa",
     3: "Nakuru",
@@ -132,10 +132,10 @@ var sheng = {
     17:"Ndom",
     18: "Yengs",
     19: "Kuseti",
-    20: "lamba lolo"
-    21: "Rangi ya thao"
-    22:  "Empress"
-    23: "Mbongi"
+    20: "lamba lolo",
+    21: "Rangi ya thao",
+    22:  "Empress",
+    23: "Mbongi",
     24: "Wamlambez"
     
 };

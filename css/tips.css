@@ -52,14 +52,4 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
-.content {
-    max-width: 750px;
-    margin: auto;
-    background: blue;
-    padding: 10px;
-}
-body {
-    background-image: url(../images/arcade.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+

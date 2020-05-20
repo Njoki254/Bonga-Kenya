@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+}
+
+header {
+    background-color: #F88A07;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+nav {
+    float: right;
+}

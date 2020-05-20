@@ -5,9 +5,81 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-header {
+header{
+    background-color: darksalmon;
+}
+.container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
+}
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    float: right;
+}
+body {
+    background-image: url('/images/milky.jpg');
+    min-height: 380px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 28px;
+    position: relative;
+}
+nav a {
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 14px;
+     color: black;
+     padding: 5px, 20px;
+
+ }
+nav a:hover {
+    color: black;
+}
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 0;
+    transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+    width: 100%;
+}
+.content {
+    max-width: 900px;
+    margin: auto;
+    background-color: plum;
+    padding: 10px;
 }

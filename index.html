@@ -32,34 +32,45 @@
       <div class="row">
         <div class="col-md-12">
 					<div class="panel panel-default">
+<!--Word generator section-->
            <div class="panel-heading">Word Generator</div>
            <div class="panel-body">
+		<!--Categories display code-->
 						 <h1 id="category">Category<h1>
-					   <select id="pc-category" onchange="pcNewWord();">
+					   <select id="pc-category" onchange="">
 					   <option value='1'>animals</option><option value='2'>cities</option><option value='3'>countries</option><option value='4'>famousPeople</option><option
 					    value='5'>food</option><option value='6'>landmarks</option><option value='7'>music</option><option value='8'>musicians</option><option value='9'>sheng</option>
 					   </select>
 		<!--Word Container-->
 						 <div id="word-container">
-			<!--Word Displayer-->
-               <div id="word">where new word should show up</div>
+		<!--Word Displayer-->
+	          	<div class="card">
+                <div class="card-body">
+                 Where a new word should show up.
+                </div>
+              </div>
              </div>
 		<!--Links to Word Bank new word and hide button functionalities in javascript-->
-		         <a href="javascript:;" class="" onclick="pcNewWord();"><span class="" id="">New Word</span></a>
-						 <a href="javascript:;" class="" onclick="pcHide();"><span class="" id="">Hide</span></a>
-
+		         <a href="javascript:;" class="" onclick=""><span class="" id="">New Word</span></a>
+						 <a href="javascript:;" class="" onclick=""><span class="" id="">Hide</span></a>
 				   </div>
-
           </div>
         </div>
-
-
-       </div>
+     </div>
      <div class="row">
        <div class="col-md-6">
 				 <div class="panel panel-default">
  				   <div class="panel-heading">Timer</div>
- 				   <div class="panel-body">Panel Content</div>
+ 				   <div class="panel-body">
+						 <h2 id="timelimit">Time Limit<h2>
+							 <select id="time-limit" onchange="">
+	 						<option value='1'>120 seconds</option><option value='2'>90 Seconds</option><option value='3'>60 Seconds</option>
+							<option value='4'>30 Seconds</option>
+	 						</select>
+							<br>
+							<button type="button"  onclick="" class="btn btn-primary">Start</button>
+							<button type="button"  onclick="" class="btn btn-primary">Reset</button>
+					 </div>
  				 </div>
        </div>
        <div class="col-md-6">

@@ -18,6 +18,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!--Fontawesome-->
     <script src="https://kit.fontawesome.com/a097096ef6.js"></script>
@@ -25,40 +28,51 @@
 <body>
 	<header></header>
 	<div id="container-fluid">
-		<!--Main bars, Word generator, wrong button, right button-->
-		<div id="main-bars">
-			<div class="row">
-       <div class="col-sm-3">
-         <div id= "wrong-btn">
-
-         </div>
-       <div class="col-sm-6">
-			   <div id= "word-generator">
-					 <div id= "categories">
-						 <h1 class="title">Word Generator</h1>
-
-						 <table class="settings">
-              <tr><th>Category</th><td>
-                <select id="pc-category" onchange="pcNewWord();">
-                <option value='1'>animals</option><option value='2'>cities</option><option value='3'>countries</option><option value='4'>famousPeople</option><option
-								value='5'>food</option><option value='6'>landmarks</option><option value='7'>music</option><option value='8'>musicians</option><option value='9'>sheng</option>
-							</select>
-              </td></tr>
-             </table>
-				<!--link between wordBank and generator-->
-						 <div id="pc-word-bank">
-              <div id="pc-word"></div>
-             <div>
-              <a href="javascript:;" class="" onclick="pcNewWord();"><span class="">New Charade</span></a>
-              <a href="javascript:;" class="" onclick="pcHide();"><span class="" id="pc-hide">Hide</span></a>
+		<div class="container">
+      <div class="row">
+        <div class="col-md-12">
+					<div class="panel panel-default">
+           <div class="panel-heading">Word Generator</div>
+           <div class="panel-body">
+						 <h1 id="category">Category<h1>
+					   <select id="pc-category" onchange="pcNewWord();">
+					   <option value='1'>animals</option><option value='2'>cities</option><option value='3'>countries</option><option value='4'>famousPeople</option><option
+					    value='5'>food</option><option value='6'>landmarks</option><option value='7'>music</option><option value='8'>musicians</option><option value='9'>sheng</option>
+					   </select>
+		<!--Word Container-->
+						 <div id="word-container">
+			<!--Word Displayer-->
+               <div id="word">where new word should show up</div>
              </div>
-			    	</div>
-					 </div>
-				 </div>
-       <div class="col-sm-3">.col-sm-3</div>
-      </div>
-		</div>
-	</div>
+		<!--Links to Word Bank new word and hide button functionalities in javascript-->
+		         <a href="javascript:;" class="" onclick="pcNewWord();"><span class="" id="">New Word</span></a>
+						 <a href="javascript:;" class="" onclick="pcHide();"><span class="" id="">Hide</span></a>
+
+				   </div>
+
+          </div>
+        </div>
+
+
+       </div>
+     <div class="row">
+       <div class="col-md-6">
+				 <div class="panel panel-default">
+ 				   <div class="panel-heading">Timer</div>
+ 				   <div class="panel-body">Panel Content</div>
+ 				 </div>
+       </div>
+       <div class="col-md-6">
+			   <div class="panel panel-default">
+			   <div class="panel-heading">Score</div>
+			   <div class="panel-body">Panel Content</div>
+			 </div>
+    </div>
+
+  </div>
+ </div>
+</div>
 	<footer></footer>
 </body>
 </html>
+© 2020 GitHub, Inc.

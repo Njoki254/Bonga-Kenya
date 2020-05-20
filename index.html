@@ -29,17 +29,36 @@
 	<header></header>
 	<div id="container-fluid">
 		<div class="container">
+			<div class="container-timer">
+	      <div class="row">
+	        <div class="col-md-4">
+	 				 <div class="panel panel-default">
+	  				   <div class="panel-heading">Timer</div>
+	 					 <div class="panel-body">
+	 						 <h2 id="timelimit">Time Limit<h2>
+	 							<select id="time-limit" onchange="">
+	 						 <option value='1'>120 seconds</option><option value='2'>90 Seconds</option><option value='3'>60 Seconds</option>
+	 						 <option value='4'>30 Seconds</option>
+	 						  </select>
+	 							<br>
+	 							<button type="button"  onclick="" class="btn btn-primary">Start</button>
+	 							<button type="button"  onclick="" class="btn btn-primary">Reset</button>
+	 					 </div>
+	  				 </div>
+	       </div>
+	 		</div>
+	<!--Where Word generator section begins-->
+	  <div class="container-word-gen">
       <div class="row">
         <div class="col-md-12">
 					<div class="panel panel-default">
-<!--Word generator section-->
            <div class="panel-heading">Word Generator</div>
            <div class="panel-body">
 		<!--Categories display code-->
 						 <h1 id="category">Category<h1>
 					   <select id="pc-category" onchange="">
-					   <option value='1'>animals</option><option value='2'>cities</option><option value='3'>countries</option><option value='4'>famousPeople</option><option
-					    value='5'>food</option><option value='6'>landmarks</option><option value='7'>music</option><option value='8'>musicians</option><option value='9'>sheng</option>
+					   <option value='1'>Animals</option><option value='2'>Cities</option><option value='3'>Countries</option><option value='4'>Famous People</option><option
+					    value='5'>Food</option><option value='6'>Landmarks</option><option value='7'>Music</option><option value='8'>Musicians</option><option value='9'>Sheng</option>
 					   </select>
 		<!--Word Container-->
 						 <div id="word-container">
@@ -50,33 +69,24 @@
                 </div>
               </div>
              </div>
-		<!--Links to Word Bank new word and hide button functionalities in javascript-->
+	<!--Links to Word Bank new word and hide button functionalities in javascript-->
 		         <a href="javascript:;" class="" onclick=""><span class="" id="">New Word</span></a>
 						 <a href="javascript:;" class="" onclick=""><span class="" id="">Hide</span></a>
 				   </div>
           </div>
         </div>
      </div>
-     <div class="row">
-       <div class="col-md-6">
-				 <div class="panel panel-default">
- 				   <div class="panel-heading">Timer</div>
-					 <div class="panel-body">
-						 <h2 id="timelimit">Time Limit<h2>
-							<select id="time-limit" onchange="">
-						 <option value='1'>120 seconds</option><option value='2'>90 Seconds</option><option value='3'>60 Seconds</option>
-						 <option value='4'>30 Seconds</option>
-						  </select>
-							<br>
-							<button type="button"  onclick="" class="btn btn-primary">Start</button>
-							<button type="button"  onclick="" class="btn btn-primary">Reset</button>
-					 </div>
- 				 </div>
-       </div>
-	<!--Scoreboard portion of the UI-->
+	 </div>
+	<!--Where Word Generator section ends-->
+	<!--Where code for timer begins-->
+
+	<!--Where timer code ends-->
+	<!-- where the Scoreboard portion of the UI begins-->
+	 <div class="container-scoreboard">
+	    <div class="row">
 				 <div class="col-md-6">
 			   <div class="panel panel-default">
-			   <div class="panel-heading">Score</div>
+			   <div class="panel-heading">Scoreboard</div>
 			   <div class="panel-body">
 					 <button type="button"  onclick="" class="btn btn-primary">Reset</button>
 					 <div class="row">
@@ -109,15 +119,16 @@
 						    </div>
 								<div class="col-md-6">
 							<button type="button"  onclick="" class="btn btn-primary">Subtract Point</button>
-						    </div>
-					  </div>
+						</div>
+						   </div>
+					    </div>
+					   </div>
 						</div>
 					 </div>
 				 </div>
 				 </div>
 			 </div>
     </div>
-
   </div>
  </div>
 </div>

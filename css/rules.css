@@ -1,0 +1,13 @@
+body {
+    font-family: fantasy;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+h1, h2 {
+    color: #F807EE;
+}

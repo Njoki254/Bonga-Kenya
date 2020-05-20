@@ -246,5 +246,39 @@ function getseconds() {
 /*==========================================================================================================================================*/
 
 /*===================================================================Random Access==========================================================*/
+function randomSelector() {
+    var objectNumber;
+    var categoryNumber;
 
+    function randomNumberGeneratorCategories() {
+        let max = categories.length;
+        let min = 0;
+
+        function randomNumber() {
+
+            return Math.random() * (max - min) + min;
+        }
+
+        return (Math.floor(randomNumber()));
+    }
+
+    function randomNumberGeneratorObjects() {
+        let max = categories.length;
+        let min = 0;
+
+        function randomNumber() {
+
+            return Math.random() * (max - min) + min;
+        }
+
+        return (Math.floor(randomNumber()));
+    }
+
+    var categoryNumber = randomNumberGeneratorCategories();
+    var objectNumber = randomNumberGeneratorObjects();
+
+    var generatedWord = categories[categoryNumber][objectNumber];
+
+    return generatedWord;
+}
 /*==========================================================================================================================================*/

@@ -25,7 +25,39 @@
 <body>
 	<header></header>
 	<div id="container-fluid">
-		
+		<!--Main bars, Word generator, wrong button, right button-->
+		<div id="main-bars">
+			<div class="row">
+       <div class="col-sm-3">
+         <div id= "wrong-btn">
+
+         </div>
+       <div class="col-sm-6">
+			   <div id= "word-generator">
+					 <div id= "categories">
+						 <h1 class="title">Word Generator</h1>
+
+						 <table class="settings">
+              <tr><th>Category</th><td>
+                <select id="pc-category" onchange="pcNewWord();">
+                <option value='1'>animals</option><option value='2'>cities</option><option value='3'>countries</option><option value='4'>famousPeople</option><option
+								value='5'>food</option><option value='6'>landmarks</option><option value='7'>music</option><option value='8'>musicians</option><option value='9'>sheng</option>
+							</select>
+              </td></tr>
+             </table>
+				<!--link between wordBank and generator-->
+						 <div id="pc-word-bank">
+              <div id="pc-word"></div>
+             <div>
+              <a href="javascript:;" class="" onclick="pcNewWord();"><span class="">New Charade</span></a>
+              <a href="javascript:;" class="" onclick="pcHide();"><span class="" id="pc-hide">Hide</span></a>
+             </div>
+			    	</div>
+					 </div>
+				 </div>
+       <div class="col-sm-3">.col-sm-3</div>
+      </div>
+		</div>
 	</div>
 	<footer></footer>
 </body>

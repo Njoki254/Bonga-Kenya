@@ -3,6 +3,8 @@
 #### By **Faith, Edwin, Daisy, Elija and Wyclif**
 ## Description
 Charades is a game in which players guess a word from a written or acted clue given to each at a given period of time(60 minutes)
+Each player from both teams play and their score is recorded.
+
 
 ## Installation Requirements
 * clone project from github [https://github.com/Njoki254/Bonga-Kenya.git]

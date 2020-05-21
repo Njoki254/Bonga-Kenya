@@ -92,5 +92,43 @@ nav a:hover::before {
     margin-left: auto;
     margin-right: auto;
     width: "60%"
+body{
+  font-size: 20px;
+  font-style: normal;
+
+}
+.container{
+  background-image: url("../images/print4.jpg");
+
+}
+.col-md-7{
+  margin:auto;
+}
+.col-md-9{
+  margin:auto;
+}
+.panel-heading{
+  font-size: 30px;
+  background-color: white;
+
+}
+#main-timer-panel{
+  background-color:gold;
+
+}
+
+#timelimit{
+
+}
+#time-limit{
+
+}
+.card-team1{
+
+}
+#start-btn{
+
+}
+#reset-btn{
 
 }

@@ -8,7 +8,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
     <!--Personal CSS-->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
 
     <!--Personal JS-->
     <script src="js/script.js"></script>
@@ -19,34 +19,128 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!--Fontawesome-->
     <script src="https://kit.fontawesome.com/a097096ef6.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-     <header>
-            <div class="container">
-                <div class="logo">
-                    <h4>Bonga Charades</h4>
-               </div>
-                <nav class="container-fluid">
-                    <ul>
-                        <li>
-                                <a href="index.html">Play</a>
-                        </li>
-                        <li>
-                                <a href="tips.html">Instructions</a>
-                        </li>
-                    </ul>
-                 </nav>
-            </div>
-     </header>
-         
-    </nav>
-
+    <header>
+		<div class="container">
+			<div class="logo">
+				<h4>Bonga Charades</h4>
+			</div>
+			<nav class="container-fluid">
+				<ul>
+					<li>
+						<a href="index.html">Play</a>
+					</li>
+					<li>
+						<a href="tips.html">Instructions</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<!--Main Container Divs-->
 	<div id="container-fluid">
-		
-	</div>
+		<div class="container">
+	<!--Where start game button begins-->
+	   <div class="container-start">
+			 <button type="button"  onclick="" class="btn btn-primary" id="start-btn">Start Game</button>
+		 </div>
+		 <br>
+		 <br>
+	<!--Where start Button ends-->
+	<!--Where Timer Code Begins-->
+			<div class="container-timer">
+				<div class="row">
+					<div class="col-md-7">
+					 <div class="panel panel-custom" id="main-timer-Panel">
+						 <div class="panel-heading"><strong>Timer</strong></div>
+							 <div class="panel-body">
+							   <div id="timer">
+									 <span id="minutes">00</span> : <span id="seconds">00</span>
+							   </div>
+								<br>
+						 </div>
+						 </div>
+				 </div>
+			</div>
+	<!--Where timer code ends-->
+
+  <!--Where Word generator section begins-->
+	  <div class="container-word-gen">
+      <div class="row">
+        <div class="col-md-12">
+					<div class="panel panel-custom">
+           <div class="panel-heading"><strong>Word Generator</strong></div>
+           <div class="panel-body">
+    <!--Categories display code-->
+    <!--Word Container-->
+						 <div id="word-container">
+		<!--Word Displayer-->
+	          	<div class="card">
+                <div class="card-body" id="word-display">
+									<br>
+									<br>
+                 Where a  word generated should be displayed.
+								 <br>
+								 <br>
+                </div>
+              </div>
+             </div>
+	   <!--Links to Word Bank new word and hide button functionalities in javascript-->
+				   </div>
+          </div>
+        </div>
+     </div>
+	 </div>
+  <!--Where Word Generator section ends-->
+	<!-- where the Scoreboard portion of the UI begins-->
+			<div class= "row">
+	  <!--Where code for wrong button begins-->
+				<div class= "col-md-3">
+					<button type="button"  onclick="" class="btn btn-warning" id="wrong-button">X</button>
+				</div>
+		<!--Where code for wrong button ends-->
+	<!--Where code for score display div begins-->
+				<div class= "col-md-6">
+					<div class="panel panel-custom">
+ 			      <div class="panel-heading" id="score-heading"><strong>Scoreboard</strong></div>
+ 			        <div class="panel-body">
+								<div class="card">
+									<div class="card-body" id="score-board">
+								<span>
+									<br>
+									<br>
+									Where the score is displayed
+								<br>
+							  <br>
+							  </span>
+							</div>
+							</div>
+							</div>
+						</div>
+					</div>
+	 <!--Where code for score display ends-->
+  <!--Where code for right button begins-->
+				<div class= "col-md-3">
+					<button type="button"  onclick="" class="btn btn-success" id="correct-button">Tick</button>
+				</div>
+	<!--Where code for right button ends-->
+			</div>
+		</div>
+<!--Where Code for ScoreBoard and features Ends-->
+   <button type="button"  onclick="" class="btn btn-primary" id="reset-btn">Reset</button>
+
+<!--Where Timer Code Ends-->
+ </div>
+</div>
 	<footer></footer>
 </body>
 </html>
+© 2020 GitHub, Inc.

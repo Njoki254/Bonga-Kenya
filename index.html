@@ -51,7 +51,7 @@
 		<div class="container">
 	<!--Where start game button begins-->
 	   <div class="container-start">
-			 <button type="button"  onclick="startGame()" class="btn btn-primary" id="start-btn"><strong>Start Game</strong></button>
+			 <button type="button"  onclick="startGame()" class="btn btn-custom" id="start-btn"><strong>Start Game</strong></button>
 		 </div>
 		 <br>
 		 <br>
@@ -60,19 +60,17 @@
 			<div class="container-timer">
 				<div class="row">
 					<div class="col-md-7">
-					 <div class="panel panel-custom" id="main-timer-Panel">
+					 <div class="panel panel-custom" id="main-timer-panel">
 						 <div class="panel-heading" id="timer-panel"><strong>Timer</strong></div>
 							 <div class="panel-body">
 							   <div id="timer">
 									 <br>
-									 <br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									 <span id="minutes"><strong>00</strong></span> : <span id="seconds"><strong>00</strong></span>
-									 <br>
-									 <br>
 							   </div>
-								<br>
+							 </div>
 						 </div>
-						 </div>
+
 				 </div>
 			</div>
 	<!--Where timer code ends-->
@@ -90,11 +88,9 @@
 		<!--Word Displayer-->
 	          	<div class="card">
                 <div class="card-body" id="word-display">
-									<br>
 									<br><strong>
                  Where a  word generated should be displayed.
 							 </strong> <br>
-								 <br>
                 </div>
               </div>
              </div>
@@ -109,7 +105,7 @@
 			<div class= "row">
 	  <!--Where code for wrong button begins-->
 				<div class= "col-md-3">
-					<button type="button"  onclick="" class="btn btn-warning" id="wrong-button"><i class="fas fa-times fa-9x"></i></button>
+					<button type="button"  onclick="" class="btn btn-custom" id="wrong-button"><i class="fas fa-times fa-9x"></i></button>
 				</div>
 		<!--Where code for wrong button ends-->
 	<!--Where code for score display div begins-->
@@ -119,10 +115,10 @@
  			        <div class="panel-body">
 								<div class="card">
 									<div class="card-body" id="score-board">
-								<span>
+								<span id="score-no">
 									<br>
 									<br><strong>
-									Where the score is displayed
+									00
 								</strong><br>
 							  <br>
 							  </span>
@@ -134,13 +130,13 @@
 	 <!--Where code for score display ends-->
   <!--Where code for right button begins-->
 				<div class= "col-md-3">
-					<button type="button"  onclick="" class="btn btn-success" id="correct-button"><i class="fas fa-check fa-7x"></i></button>
+					<button type="button"  onclick="" class="btn btn-custom" id="correct-button"><i class="fas fa-check fa-8x"></i></button>
 				</div>
 	<!--Where code for right button ends-->
 			</div>
 		</div>
 <!--Where Code for ScoreBoard and features Ends-->
-   <button type="button"  onclick="" class="btn btn-primary" id="reset-btn">Reset</button>
+   <button type="button"  onclick="" class="btn btn-primary" id="reset-btn"><strong>Reset</strong></button>
 
 <!--Where Timer Code Ends-->
  </div>

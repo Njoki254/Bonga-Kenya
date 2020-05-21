@@ -53,6 +53,7 @@
 						 </div>
 				 </div>
 			</div>
+	<!--Where timer code ends-->
 
   <!--Where Word generator section begins-->
 	  <div class="container-word-gen">
@@ -66,7 +67,7 @@
 						 <div id="word-container">
 		<!--Word Displayer-->
 	          	<div class="card">
-                <div class="card-body">
+                <div class="card-body" id="wordDisplay">
 									<br>
 									<br>
                  Where a  word generated should be displayed.
@@ -86,7 +87,7 @@
 			<div class= "row">
 	  <!--Where code for wrong button begins-->
 				<div class= "col-md-3">
-					<button type="button"  onclick="" class="btn btn-warning" id="wrong-btn">X</button>
+					<button type="button"  onclick="" class="btn btn-warning" id="wrong-button">X</button>
 				</div>
 		<!--Where code for wrong button ends-->
 	<!--Where code for score display div begins-->
@@ -95,7 +96,7 @@
  			      <div class="panel-heading" id="score-heading"><strong>Scoreboard</strong></div>
  			        <div class="panel-body">
 								<div class="card">
-									<div class="card-body"
+									<div class="card-body" id="score-board">
 								<span>
 									<br>
 									<br>
@@ -111,7 +112,7 @@
 	 <!--Where code for score display ends-->
   <!--Where code for right button begins-->
 				<div class= "col-md-3">
-					<button type="button"  onclick="" class="btn btn-success" id="reset-btn">Tick</button>
+					<button type="button"  onclick="" class="btn btn-success" id="correct-button">Tick</button>
 				</div>
 	<!--Where code for right button ends-->
 			</div>

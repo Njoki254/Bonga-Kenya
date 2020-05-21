@@ -5,13 +5,13 @@
 Charades is a game in which players guess a word from a written or acted clue given to each at a given period of time(60 minutes)
 
 ## Live page
-[ Bonga Kenya Charades](https://njoki254.github.io/Bonga-Kenya/.)
+() Bonga Kenya Charades)[https://njoki254.github.io/Bonga-Kenya/.]
 
 ## BDD
-
+Bonga Kenya is here to make u play and make you learn more on our charades game.
 
 ## Installation Requirements
-* clone project from github [https://github.com/Njoki254/Bonga-Kenya.git]
+* clone project from github [https://njoki254.github.io/Bonga-Kenya/.]
 * navigate to the cloned project folder
 * run index.html on your browser.
 
@@ -25,3 +25,4 @@ Charades is a game in which players guess a word from a written or acted clue gi
 ## license
 * MIT
 Copyright (c) 2020 ** Gwada Wyclif, Njoki Kamau, Daisy Kibogy, Elijah, Edwin**
+Licensed under the Apache License, Version 2.0 (the "License"); 

@@ -289,14 +289,3 @@ function startGame() {
     countdown();
 }
 
-//start of scoreboard functions
-
-//declaring start of score at 0
-var score = 0;
-
-//code for adding a point to the scoreboard if TICK is clicked
-
-function increment() {
-    score += 1;
-    $("#score-board")[0].innerHTML = score
-}

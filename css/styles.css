@@ -189,3 +189,9 @@ ul {
 #seconds{
   text-align:center;
 }
+#footer{
+  padding: 20px;
+  text-align: center;
+  background-color: #4b7a5f;
+  margin-top: 0%;
+}

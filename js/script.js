@@ -298,19 +298,19 @@ var score = 0
 //declaration of function to add score and bring up the next word
 
 function tick() {
-
+    score += 1;
+    document.getElementById('score-board').innerHTML = score
+    randomSelector();
 }
 
 //declaration of function to pass and bring up another word
 
 function pass() {
-
-
+    randomSelector();
 }
 
 //declaration of function to reset the game
 
 function reset() {
-
     
 }

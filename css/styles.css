@@ -83,3 +83,6 @@ nav a:hover::before {
     background-color: plum;
     padding: 10px;
 }
+.content h1, h2, p, ul {
+    text-align: center;
+}

@@ -285,6 +285,7 @@ function randomSelector() {
 }
 /*==========================================================================================================================================*/
 function startGame() {
+    document.getElementById('score-board').innerHTML = 0
     randomSelector();
     countdown();
 }
@@ -312,5 +313,6 @@ function pass() {
 //declaration of function to reset the game
 
 function reset() {
-    
+    document.getElementById('score-board').innerHTML = 0;
+    randomSelector();
 }

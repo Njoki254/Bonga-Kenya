@@ -8,6 +8,14 @@ Charades is a game in which players guess a word from a written or acted clue gi
 [ Bonga Kenya Charades](https://njoki254.github.io/Bonga-Kenya/.)
 
 ## BDD
+![BDD Model](.images/BDD.png)
+
+# Game Instructions
+1. Press Start game Button
+2. Player who's turn it is should guess as many words as possible within the given time, without any verbal communication for clues
+3. If player guesses a word correctly, the game conductor should press the check button to add a point to the ScoreBoard
+4. If a player cannot guess the word wrong and wishes to pass, the game conductor presses the X button to move on to the next words
+5. The reset button resets the timer
 
 
 ## Installation Requirements

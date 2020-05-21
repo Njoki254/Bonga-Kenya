@@ -112,13 +112,13 @@ var countries = {
 
 var sheng = {
     1:"Arif",
-    2: "jaba",
+    2:"jaba",
     3:"tenje",
     4:"sonko",
     5:"rwabe",
     6:"nyuria",
     7:"mneti",
-    8:"panch", 
+    8:"punch", 
     9:"ngori",
     10:"mbogi",
     11:"manga",
@@ -132,7 +132,7 @@ var sheng = {
     19: "Kuseti",
     20: "lamba lolo",
     21: "Rangi ya thao",
-    22:  "Empress",
+    22: "Empress",
     23: "Mbongi",
     24: "Wamlambez"
     
@@ -140,13 +140,13 @@ var sheng = {
 var food = {
     1:"Ugali",
     2:"Githeri",
-    3: "Pilau",
-    4: "Nyama Choma",
+    3:"Pilau",
+    4:"Nyama Choma",
     5:"Chapati",
-    6: "Kachumbari",
-    7: "Chips Mwitu",
-    8: "Mutura",
-    9: "Irio",
+    6:"Kachumbari",
+    7:"Chips Mwitu",
+    8:"Mutura",
+    9:"Irio",
     10:"Kamande"
 };
 var landmarks = {

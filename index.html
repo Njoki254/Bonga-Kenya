@@ -64,23 +64,20 @@
            <div class="panel-heading"><strong>Word Generator</strong></div>
            <div class="panel-body">
     <!--Categories display code-->
-						 <h1 id="category"><strong>Category</strong><h1>
-					   <select id="category" onchange="">
-					   <option value='1'>Animals</option><option value='2'>Cities</option><option value='3'>Countries</option><option value='4'>Famous People</option><option
-					    value='5'>Food</option><option value='6'>Landmarks</option><option value='7'>Music</option><option value='8'>Musicians</option><option value='9'>Sheng</option>
-					   </select>
     <!--Word Container-->
 						 <div id="word-container">
 		<!--Word Displayer-->
 	          	<div class="card">
                 <div class="card-body">
-                 Where a new word should show up.
+									<br>
+									<br>
+                 Where a  word generated should be displayed.
+								 <br>
+								 <br>
                 </div>
               </div>
              </div>
 	   <!--Links to Word Bank new word and hide button functionalities in javascript-->
-		         <a href="javascript:;" class="" onclick=""><span class="" id="New-word-func">New Word</span></a>
-						 <a href="javascript:;" class="" onclick=""><span class="" id="Hide-func">Hide</span></a>
 				   </div>
           </div>
         </div>
@@ -94,44 +91,16 @@
 			   <div class="panel panel-custom">
 			   <div class="panel-heading" id="score-heading"><strong>Scoreboard</strong></div>
 			   <div class="panel-body">
-					 <button type="button"  onclick="" class="btn btn-primary" id="reset-btn">Reset</button>
 					 <div class="row">
-						 <div class="col-md-6">
+						 <div class="col-md-12">
 					   <div id="team1-container">
 						   <div class="card">
-							   <div class="card-team1">
-							   Where Team 1 Scores should show up
-							 </div>
-							 <br>
-							 <div class="row">
- 								<div class="col-md-6">
- 							<button type="button"  onclick="" class="btn btn-primary" id="add-btn">Add Point</button>
- 						    </div>
- 								<div class="col-md-6">
- 							<button type="button"  onclick="" class="btn btn-primary" id"subtract-btn">Subtract Point</button>
- 						    </div>
- 					  </div>
-						 </div>
-					  </div>
-				 </div>
-				   <div class="col-md-6">
-					 <div id="team2-container">
-						<div class="card">
-							<div class="card-team2">
-							 Where Team 2 Scores should show up
-							</div>
-							<br>
-							<div class="row">
-								<div class="col-md-6">
-							<button type="button"  onclick="" class="btn btn-primary"><strong>+</strong></button>
-						    </div>
-								<div class="col-md-6">
-							<button type="button"  onclick="" class="btn btn-primary"><strong>-</strong></button>
-						</div>
-						   </div>
-					    </div>
-					   </div>
-						</div>
+								 <br>
+								 <br>
+                 This is where score should be displayed
+								 <br>
+								 <br>
+
 					 </div>
 				  </div>
 			  </div>
@@ -139,31 +108,7 @@
     </div>
   </div>
 <!--Where Code for ScoreBoard Ends-->
-<!--Where Timer Code Begins-->
-		<div class="container-timer">
-			<div class="row">
-				<div class="col-md-7">
-				 <div class="panel panel-custom" id="main-timer-Panel">
-					 <div class="panel-heading">Timer</div>
-						 <div class="panel-body">
-						 <h2 id="timelimit">Time Limit<h2>
-							<select id="time-limit" onchange="">
-						 <option value='1'>120 seconds</option><option value='2'>90 Seconds</option><option value='3'>60 Seconds</option>
-						 <option value='4'>30 Seconds</option>
-							</select>
 
-							 <div class="card">
-								 <div class="card-team1">
-								 Where time left displays
-							 </div>
-						 </div>
-							<br>
-							<button type="button"  onclick="" class="btn btn-primary" id="start-btn">Start</button>
-							<button type="button"  onclick="" class="btn btn-primary" id="reset-btn">Reset</button>
-					 </div>
-					 </div>
-			 </div>
-		</div>
 <!--Where Timer Code Ends-->
  </div>
 </div>

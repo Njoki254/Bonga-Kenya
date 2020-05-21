@@ -31,41 +31,16 @@
 <!--Main Container Divs-->
 	<div id="container-fluid">
 		<div class="container">
-  <!--Where Timer Code Begins-->
-			<div class="container-timer">
-	      <div class="row">
-	        <div class="col-md-4">
-	 				 <div class="panel panel-default" id="main-timer-Panel">
-	  				   <div class="panel-heading">Timer</div>
-	 					 <div class="panel-body">
-	 						 <h2 id="timelimit">Time Limit<h2>
-	 							<select id="time-limit" onchange="">
-	 						 <option value='1'>120 seconds</option><option value='2'>90 Seconds</option><option value='3'>60 Seconds</option>
-	 						 <option value='4'>30 Seconds</option>
-	 						  </select>
 
-	 						   <div class="card">
-	 							   <div class="card-team1">
-	 							   Where time left displays
-	 							 </div>
-	 						 </div>
-	 							<br>
-	 							<button type="button"  onclick="" class="btn btn-primary" id="start-btn">Start</button>
-	 							<button type="button"  onclick="" class="btn btn-primary" id="reset-btn">Reset</button>
-	 					 </div>
-	  				 </div>
-	       </div>
-	 		</div>
-  <!--Where Timer Code Ends-->
   <!--Where Word generator section begins-->
 	  <div class="container-word-gen">
       <div class="row">
         <div class="col-md-12">
-					<div class="panel panel-default">
-           <div class="panel-heading">Word Generator</div>
+					<div class="panel panel-custom">
+           <div class="panel-heading"><strong>Word Generator</strong></div>
            <div class="panel-body">
     <!--Categories display code-->
-						 <h1 id="category">Category<h1>
+						 <h1 id="category"><strong>Category</strong><h1>
 					   <select id="category" onchange="">
 					   <option value='1'>Animals</option><option value='2'>Cities</option><option value='3'>Countries</option><option value='4'>Famous People</option><option
 					    value='5'>Food</option><option value='6'>Landmarks</option><option value='7'>Music</option><option value='8'>Musicians</option><option value='9'>Sheng</option>
@@ -91,9 +66,9 @@
 	<!-- where the Scoreboard portion of the UI begins-->
 	 <div class="container-scoreboard">
 	    <div class="row">
-				 <div class="col-md-6">
-			   <div class="panel panel-default">
-			   <div class="panel-heading" id="score-heading">Scoreboard</div>
+				 <div class="col-md-9">
+			   <div class="panel panel-custom">
+			   <div class="panel-heading" id="score-heading"><strong>Scoreboard</strong></div>
 			   <div class="panel-body">
 					 <button type="button"  onclick="" class="btn btn-primary" id="reset-btn">Reset</button>
 					 <div class="row">
@@ -103,6 +78,7 @@
 							   <div class="card-team1">
 							   Where Team 1 Scores should show up
 							 </div>
+							 <br>
 							 <div class="row">
  								<div class="col-md-6">
  							<button type="button"  onclick="" class="btn btn-primary" id="add-btn">Add Point</button>
@@ -120,12 +96,13 @@
 							<div class="card-team2">
 							 Where Team 2 Scores should show up
 							</div>
+							<br>
 							<div class="row">
 								<div class="col-md-6">
-							<button type="button"  onclick="" class="btn btn-primary">Add Point</button>
+							<button type="button"  onclick="" class="btn btn-primary"><strong>+</strong></button>
 						    </div>
 								<div class="col-md-6">
-							<button type="button"  onclick="" class="btn btn-primary">Subtract Point</button>
+							<button type="button"  onclick="" class="btn btn-primary"><strong>-</strong></button>
 						</div>
 						   </div>
 					    </div>
@@ -138,6 +115,32 @@
     </div>
   </div>
 <!--Where Code for ScoreBoard Ends-->
+<!--Where Timer Code Begins-->
+		<div class="container-timer">
+			<div class="row">
+				<div class="col-md-7">
+				 <div class="panel panel-custom" id="main-timer-Panel">
+					 <div class="panel-heading">Timer</div>
+						 <div class="panel-body">
+						 <h2 id="timelimit">Time Limit<h2>
+							<select id="time-limit" onchange="">
+						 <option value='1'>120 seconds</option><option value='2'>90 Seconds</option><option value='3'>60 Seconds</option>
+						 <option value='4'>30 Seconds</option>
+							</select>
+
+							 <div class="card">
+								 <div class="card-team1">
+								 Where time left displays
+							 </div>
+						 </div>
+							<br>
+							<button type="button"  onclick="" class="btn btn-primary" id="start-btn">Start</button>
+							<button type="button"  onclick="" class="btn btn-primary" id="reset-btn">Reset</button>
+					 </div>
+					 </div>
+			 </div>
+		</div>
+<!--Where Timer Code Ends-->
  </div>
 </div>
 	<footer></footer>

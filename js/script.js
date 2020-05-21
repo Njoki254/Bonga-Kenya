@@ -301,3 +301,5 @@ function increment() {
 
 
 //increments the user's score when called and updates the HTML in span#score.
+//<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+//<div id="score">0</div>

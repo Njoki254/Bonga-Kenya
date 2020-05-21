@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color:#4b7a5f;
+    background-color: #0B745C;
     color:gold;
 }
 
@@ -38,23 +38,23 @@ header {
 #instructions, #play{
   font-size: 30px;
   margin-right:100%;
-  color:gold;
+  color:#F7BB0E;
   font-size:
 }
 #word-display{
-  background-color: black;
+  background-color:#13200B;
   color:white;
   text-align: center;
 }
 #timer{
-  background-color:black;
+  background-color:#13200B;
   color:white;
   font-size: 30px;
 
 
 }
 #score-board{
-  background-color: black;
+  background-color:#13200B;
   color:white;
   text-align: center;
 }
@@ -177,7 +177,7 @@ ul {
 
 }
 .panel-custom{
-  background-color: yellow;
+  background-color: #F7BB0E;
 }
 #start-btn{
   height: 100px;

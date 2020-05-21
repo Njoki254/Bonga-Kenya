@@ -289,3 +289,28 @@ function startGame() {
     countdown();
 }
 
+//start of scoreboard code
+
+//initialisation and declaration of the start score
+
+var score = 0
+
+//declaration of function to add score and bring up the next word
+
+function tick() {
+
+}
+
+//declaration of function to pass and bring up another word
+
+function pass() {
+
+
+}
+
+//declaration of function to reset the game
+
+function reset() {
+
+    
+}

@@ -78,11 +78,18 @@ nav a:hover::before {
     width: 100%;
 }
 .content {
-    max-width: 900px;
+    max-width: 500;
     margin: auto;
     background-color: plum;
     padding: 10px;
 }
 .content h1, h2, p, ul {
     text-align: center;
+}
+.iframe-container iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: "60%"
+
 }

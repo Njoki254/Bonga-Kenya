@@ -9,7 +9,7 @@ The game's word bank includes landmarks, famous people, musicians, animals, citi
 [ Bonga Kenya Charades](https://njoki254.github.io/Bonga-Kenya/.)
 
 ## BDD
-![BDD Model](.images/BDD.png)
+![BDD Model](./images/BDD.png)
 
 # Game Instructions
 1. Press "Start game" Button

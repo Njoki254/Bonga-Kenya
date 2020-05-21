@@ -43,7 +43,7 @@
 				<div class="row">
 					<div class="col-md-7">
 					 <div class="panel panel-custom" id="main-timer-Panel">
-						 <div class="panel-heading">Timer</div>
+						 <div class="panel-heading"><strong>Timer</strong></div>
 							 <div class="panel-body">
 							   <div id="timer">
 									 <span id="minutes">00</span> : <span id="seconds">00</span>
@@ -84,23 +84,40 @@
   <!--Where Word Generator section ends-->
 	<!-- where the Scoreboard portion of the UI begins-->
 			<div class= "row">
+	  <!--Where code for wrong button begins-->
 				<div class= "col-md-3">
 					<button type="button"  onclick="" class="btn btn-warning" id="wrong-btn">X</button>
 				</div>
-				<div class= "col-md-3">
-				  <div class="panel panel-custom">
-				    <div class="panel-heading" id="score-heading"><strong>Scoreboard</strong></div>
-				      <div class="panel-body">
-					    <p>Where Score should be displayed</p>
-					    </div>
-				    </div>
-				  </div>
-				 </div>
+		<!--Where code for wrong button ends-->
+	<!--Where code for score display div begins-->
+				<div class= "col-md-6">
+					<div class="panel panel-custom">
+ 			      <div class="panel-heading" id="score-heading"><strong>Scoreboard</strong></div>
+ 			        <div class="panel-body">
+								<div class="card">
+									<div class="card-body"
+								<span>
+									<br>
+									<br>
+									Where the score is displayed
+								<br>
+							  <br>
+							  </span>
+							</div>
+							</div>
+							</div>
+						</div>
+					</div>
+	 <!--Where code for score display ends-->
+  <!--Where code for right button begins-->
 				<div class= "col-md-3">
 					<button type="button"  onclick="" class="btn btn-success" id="reset-btn">Tick</button>
 				</div>
+	<!--Where code for right button ends-->
 			</div>
-<!--Where Code for ScoreBoard Ends-->
+		</div>
+<!--Where Code for ScoreBoard and features Ends-->
+   <button type="button"  onclick="" class="btn btn-primary" id="reset-btn">Reset</button>
 
 <!--Where Timer Code Ends-->
  </div>

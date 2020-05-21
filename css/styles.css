@@ -11,7 +11,7 @@ header {
     background-color: darksalmon;
 }
 
-.container {
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,15 +37,10 @@ body {
     background-size: cover;
 }
 
-
-header::after {
-    content: '';
-    display: table;
-    clear: both;
-
-}
-
-
+/*header {
+    z-index: 10;
+    position: absolute;
+}*/
 
 nav ul {
     margin: 0;

@@ -200,15 +200,15 @@ function Decrement() {
         //if less than a minute remaining 
         //Display only seconds value. 
         if (seconds < 59) {
-            seconds.value = secs;
+            seconds.innerHTML = secs;
         }
 
         //Display both minutes and seconds 
         //getminutes and getseconds is used to 
         //get minutes and seconds 
         else {
-            minutes.value = getminutes();
-            seconds.value = getseconds();
+            minutes.innerHTML = getminutes();
+            seconds.innerHTML = getseconds();
         }
         //when less than a minute remaining 
         //colour of the minutes and seconds 
@@ -284,3 +284,7 @@ function randomSelector() {
     return generatedWord;
 }
 /*==========================================================================================================================================*/
+function startGame() {
+    randomSelector();
+    countdown();
+}

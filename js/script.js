@@ -279,6 +279,8 @@ function randomSelector() {
 
     var generatedWord = categories[categoryNumber][objectNumber];
 
+    document.getElementById('word-display').innerHTML = generatedWord;
+
     return generatedWord;
 }
 /*==========================================================================================================================================*/

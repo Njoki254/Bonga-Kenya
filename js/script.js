@@ -285,7 +285,7 @@ function randomSelector() {
 }
 /*==========================================================================================================================================*/
 function startGame() {
-    document.getElementById('score-board').innerHTML = 0
+    document.getElementById('score-board').innerHTML = 0;
     randomSelector();
     countdown();
 }
@@ -294,13 +294,13 @@ function startGame() {
 
 //initialisation and declaration of the start score
 
-var score = 0
+var score = 0;
 
 //declaration of function to add score and bring up the next word
 
 function tick() {
     score += 1;
-    document.getElementById('score-board').innerHTML = score
+    document.getElementById('score-board').innerHTML = score;
     randomSelector();
 }
 

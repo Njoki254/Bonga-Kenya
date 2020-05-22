@@ -6,7 +6,7 @@ Charades is a game in which players guess randomized words from a written or act
 The game's word bank includes landmarks, famous people, musicians, animals, cities and countries relevant to the Kenyan context.
 
 ## Live page
-() Bonga Kenya Charades)[https://njoki254.github.io/Bonga-Kenya/.]
+[Bonga Kenya Charades][https://njoki254.github.io/Bonga-Kenya/.]
 
 ## BDD
 

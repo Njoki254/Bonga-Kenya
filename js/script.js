@@ -37,15 +37,15 @@ var musicians = {
     13: "Kahush",
     14: "Willy Paul",
     15: "JuaCali",
-    16: "wahu",
+    16: "Wahu",
     17:"King Kaka",
     18: "Diamond"
 };
 
 var music = {
-    1: "wamlambez",
+    1: "Wamlambez",
     2: "Bababa Banjuka…",
-    3: "accelerator",
+    3: "Accelerator",
     4: "KDF",
     5: "Bazokizo",
     6: "Utawezana",
@@ -54,13 +54,13 @@ var music = {
 
 var animals = {
     1: "lion",
-    2: "girraffe",
-    3: "ostrich",
+    2: "Girraffe",
+    3: "Ostrich",
     4:"dog",
-    5: "cow",
-    6: "buffalo",
-    7: "zebra",
-    8: "wild beast",
+    5: "Cow",
+    6: "Buffalo",
+    7: "Zebra",
+    8: "Wild beast",
     9: "Leopard",
     10: "Cheetah",
     11:"Warthog",
@@ -112,25 +112,25 @@ var countries = {
 
 var sheng = {
     1:"Arif",
-    2: "jaba",
-    3:"tenje",
-    4:"sonko",
-    5:"rwabe",
-    6:"nyuria",
-    7:"mneti",
-    8:"panch",
-    9:"ngori",
-    10:"mbogi",
-    11:"manga",
-    12:"ndai",
-    13:"rieng",
-    14:"form",
-    15:"njege",
+    2: "Jaba",
+    3:"Tenje",
+    4:"Sonko",
+    5:"Rwabe",
+    6:"Nyuria",
+    7:"Mneti",
+    8:"Panch",
+    9:"Ngori",
+    10:"Mbogi",
+    11:"Manga",
+    12:"Ndai",
+    13:"Rieng",
+    14:"Form",
+    15:"Njege",
     16:"karau",
     17:"Ndom",
     18: "Yengs",
     19: "Kuseti",
-    20: "lamba lolo",
+    20: "Lamba lolo",
     21: "Rangi ya thao",
     22:  "Empress",
     23: "Mbongi",
@@ -166,7 +166,7 @@ var landmarks = {
 
 var phrases = {
     1: "Itabidi uzoe",
-    2: "im in a small meeting",
+    2: "I'm in a small meeting",
     3: "wacha niende nirudi",
     4: "Me i love Nairobi",
     5: "Tuma na ya Kutoa",
@@ -283,4 +283,34 @@ function randomSelector() {
 
     return generatedWord;
 }
+function startGame() {
+    randomSelector();
+    countdown();
+}
 /*==========================================================================================================================================*/
+//start of scoreboard code
+
+//initialisation and declaration of the start score
+
+var score = 0;
+
+//declaration of function to add score and bring up the next word
+
+function tick() {
+    score += 1;
+    document.getElementById('score-board').innerHTML = score;
+    randomSelector();
+}
+
+//declaration of function to pass and bring up another word
+
+function pass() {
+    randomSelector();
+}
+
+//declaration of function to reset the game
+
+function reset() {
+    document.getElementById('score-board').innerHTML = 0;
+    randomSelector();
+}

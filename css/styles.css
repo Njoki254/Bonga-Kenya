@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Righteous&display=swap');
 /*Code for header*/
 /*header {
     z-index: 10;
@@ -8,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 body{
   background-color: lightcyan;
@@ -161,6 +163,7 @@ background-color:#F7BB0E;
   color:white;
   text-align: center;
   font-size:40px;
+  font-family: Righteous;
 }
 .col-md-7 {
     margin: auto;
@@ -188,9 +191,10 @@ background-color:#F7BB0E;
   background-color:#13200B;
   color:white;
   text-align: center;
+  text-size: 35px;
 }
 #score-no{
-  font-size:30px;
+  font-size:35px;
   font-weight:bolder;
 }
 #score-heading{
@@ -215,4 +219,15 @@ background-color:#F7BB0E;
 }
 .panel-heading{
   background-color: #F7BB0E;
+}
+textarea{
+  resize:none;
+}
+footer{
+  background-color: #0B745C;
+  color:gold;
+}
+#aboutus{
+  background-color: #0B745C;
+  color:gold;
 }

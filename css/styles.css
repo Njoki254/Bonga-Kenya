@@ -1,32 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-
+/*Code for header*/
+/*header {
+    z-index: 10;
+    position: absolute;
+}*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+  background-color: lightcyan;
+      body {
+          font-size: 20px;
+          font-style: normal;
+      }
+}
 
 header {
     background-color: #0B745C;
     color:gold;
 }
-
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-}
-
-.logo {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 40px;
-}
-#logo{
-  font-size:50px;
-
 }
 
 .container-fluid {
@@ -35,38 +35,6 @@ header {
     float: right;
     align-items: left;
 }
-#instructions, #play{
-  font-size: 30px;
-  margin-right:100%;
-  color:#F7BB0E;
-  font-size:
-}
-#word-display{
-  background-color:#13200B;
-  color:white;
-  text-align: center;
-}
-#timer{
-  background-color:#13200B;
-  color:white;
-  font-size: 30px;
-
-
-}
-#score-board{
-  background-color:#13200B;
-  color:white;
-  text-align: center;
-}
-#score-heading{
-  text-align:center;
-}
-
-/*header {
-    z-index: 10;
-    position: absolute;
-}*/
-
 nav ul {
     margin: 0;
     padding: 0;
@@ -129,65 +97,124 @@ ul {
     margin-right: auto;
     width: 60%;
 }
-
-    body {
-        font-size: 20px;
-        font-style: normal;
-
-    }
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+#logo{
+  font-size:50px;
+}
 #brand{
   height: 80px;
   width: 80px;
 }
+
     .container {
         background-image: url("../images/skin.jpg");
 
     }
 
-    .col-md-7 {
-        margin: auto;
-    }
-
-    .col-md-9 {
-        margin: auto;
-    }
-
-    .panel-heading {
-        font-size: 30px;
-        background-color: white;
-
-    }
-    #features{
-      background-image: url("../");
-      text-align:center;
-    }
-
-    #timer-panel{
-      text-align:center;
-    }
-#bonga-word{
+/*Code for Navigation bar*/
+#instructions, #play{
+  font-size: 30px;
+  margin-right:100%;
+  color:#F7BB0E;
+  font-size:
+}
+/*code for start and reset button*/
+#start-btn{
+  background-color: #05769C;
+  height: 50px;
+  width: 140px;
+  color:white;
+}
+#reset-btn{
+  background-color: #05769C;
+  height: 50px;
+  width: 140px;
+  margin-left: 87%;
+}
+/*code for timer*/
+#timer{
+  background-color:#13200B;
+  color:white;
+  font-size: 45px;
+}
+#timer-panel{
   text-align:center;
 }
-#wrong-button{
-  margin-left:60%;
-  background-color:red;
-}
-#correct-button{
-  margin-left:
-
-}
-.panel-custom{
-  background-color: #F7BB0E;
-}
-#start-btn{
-  height: 100px;
-  width: 200px;
+#main-timer-panel{
+background-color:#F7BB0E;
 }
 #minutes{
   text-align:center;
 }
 #seconds{
   text-align:center;
+}
+
+
+/*Code for Word Displayer*/
+#word-display{
+  background-color:#13200B;
+  color:white;
+  text-align: center;
+  font-size:40px;
+}
+.col-md-7 {
+    margin: auto;
+}
+
+.col-md-9 {
+    margin: auto;
+}
+
+.panel-heading {
+    font-size: 30px;
+    background-color: white;
+
+}
+#features{
+  background-image: url("../");
+  text-align:center;
+}
+#bonga-word{
+  text-align:center;
+}
+
+/*code for scoreboard*/
+#score-board{
+  background-color:#13200B;
+  color:white;
+  text-align: center;
+}
+#score-no{
+  font-size:30px;
+  font-weight:bolder;
+}
+#score-heading{
+  text-align:center;
+}
+#wrong-button{
+  margin-left:60%;
+  background-color:#EE4414;
+}
+#correct-button{
+  margin-left:;
+  background-color: #0B745C;
+
+}
+.panel-custom{
+  background-color: #F7BB0E;
+}
+
+
+.panel-body{
+  background-color: #F7BB0E;
+}
+.panel-heading{
+  background-color: #F7BB0E;
 }
 #footer{
  

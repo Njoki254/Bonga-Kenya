@@ -284,10 +284,14 @@ function randomSelector() {
     return generatedWord;
 }
 function startGame() {
+    document.getElementById('score-board').innerHTML = 0;
     randomSelector();
     countdown();
 }
+
 /*==========================================================================================================================================*/
+=======
+
 //start of scoreboard code
 
 //initialisation and declaration of the start score

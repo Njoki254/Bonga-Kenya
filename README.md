@@ -6,9 +6,12 @@ Charades is a game in which players guess randomized words from a written or act
 The game's word bank includes landmarks, famous people, musicians, animals, cities and countries relevant to the Kenyan context.
 
 ## Live page
-[ Bonga Kenya Charades](https://njoki254.github.io/Bonga-Kenya/.)
+() Bonga Kenya Charades)[https://njoki254.github.io/Bonga-Kenya/.]
 
 ## BDD
+
+Bonga Kenya is here to make u play and make you learn more on our charades game.
+
 ![BDD Model](./images/BDD.png)
 
 # Game Instructions
@@ -18,9 +21,8 @@ The game's word bank includes landmarks, famous people, musicians, animals, citi
 4. If a player cannot guess the word  and wishes to pass, the game conductor presses the X button to move on to the next word
 5. The reset button resets the timer
 
-
 ## Installation Requirements
-* clone project from github [https://github.com/Njoki254/Bonga-Kenya.git]
+* clone project from github [https://njoki254.github.io/Bonga-Kenya/.]
 * navigate to the cloned project folder
 * run index.html on your browser.
 
@@ -34,3 +36,4 @@ The game's word bank includes landmarks, famous people, musicians, animals, citi
 ## license
 * MIT
 Copyright (c) 2020 ** Gwada Wyclif, Njoki Kamau, Daisy Kibogy, Elijah, Edwin**
+Licensed under the Apache License, Version 2.0 (the "License"); 

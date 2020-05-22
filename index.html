@@ -30,27 +30,28 @@
 <body>
     <header>
 		<div class="header">
+			<img id="brand" alt="" src="images/favicon.ico">&nbsp;&nbsp;&nbsp;
 			<div class="logo">
-				<h4>Bonga Charades</h4>
+				<h4 id="logo"><strong>Bonga Charades</strong></h4>
 			</div>
 			<nav class="container-fluid">
 				<ul>
 					<li>
-						<a href="index.html">Play</a>
+						<a href="index.html"id="play"><strong>Play</strong></a>
 					</li>
 					<li>
-						<a href="tips.html">Instructions</a>
+						<a href="tips.html" id="instructions"><strong>Instructions</strong></a>
 					</li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 <!--Main Container Divs-->
-	<div id="container-fluid">
+	<div id="container-fluid" id="features">
 		<div class="container">
 	<!--Where start game button begins-->
 	   <div class="container-start">
-			 <button type="button"  onclick="startGame()" class="btn btn-primary" id="start-btn">Start Game</button>
+			 <button type="button"  onclick="startGame()" class="btn btn-custom" id="start-btn"><strong>Start Game</strong></button>
 		 </div>
 		 <br>
 		 <br>
@@ -59,15 +60,17 @@
 			<div class="container-timer">
 				<div class="row">
 					<div class="col-md-7">
-					 <div class="panel panel-custom" id="main-timer-Panel">
-						 <div class="panel-heading"><strong>Timer</strong></div>
+					 <div class="panel panel-custom" id="main-timer-panel">
+						 <div class="panel-heading" id="timer-panel"><strong>Timer</strong></div>
 							 <div class="panel-body">
 							   <div id="timer">
-									 <span id="minutes"></span> : <span id="seconds"></span>
+									 <br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									 <span id="minutes"><strong>00</strong></span> : <span id="seconds"><strong>00</strong></span>
 							   </div>
-								<br>
+							 </div>
 						 </div>
-						 </div>
+
 				 </div>
 			</div>
 	<!--Where timer code ends-->
@@ -77,7 +80,7 @@
       <div class="row">
         <div class="col-md-12">
 					<div class="panel panel-custom">
-           <div class="panel-heading"><strong>Word Generator</strong></div>
+           <div class="panel-heading" id="bonga-word"><strong>Bonga Word</strong></div>
            <div class="panel-body">
     <!--Categories display code-->
     <!--Word Container-->
@@ -85,11 +88,9 @@
 		<!--Word Displayer-->
 	          	<div class="card">
                 <div class="card-body" id="word-display">
-									<br>
-									<br>
+									<br><strong>
                  Where a  word generated should be displayed.
-								 <br>
-								 <br>
+							 </strong> <br>
                 </div>
               </div>
              </div>
@@ -104,7 +105,7 @@
 			<div class= "row">
 	  <!--Where code for wrong button begins-->
 				<div class= "col-md-3">
-					<button type="button"  onclick="" class="btn btn-warning" id="wrong-button">X</button>
+					<button type="button"  onclick="" class="btn btn-custom" id="wrong-button"><i class="fas fa-times fa-9x"></i></button>
 				</div>
 		<!--Where code for wrong button ends-->
 	<!--Where code for score display div begins-->
@@ -114,11 +115,11 @@
  			        <div class="panel-body">
 								<div class="card">
 									<div class="card-body" id="score-board">
-								<span>
+								<span id="score-no">
 									<br>
-									<br>
-									Where the score is displayed
-								<br>
+									<br><strong>
+									00
+								</strong><br>
 							  <br>
 							  </span>
 							</div>
@@ -129,13 +130,13 @@
 	 <!--Where code for score display ends-->
   <!--Where code for right button begins-->
 				<div class= "col-md-3">
-					<button type="button"  onclick="" class="btn btn-success" id="correct-button">Tick</button>
+					<button type="button"  onclick="" class="btn btn-custom" id="correct-button"><i class="fas fa-check fa-8x"></i></button>
 				</div>
 	<!--Where code for right button ends-->
 			</div>
 		</div>
 <!--Where Code for ScoreBoard and features Ends-->
-   <button type="button"  onclick="" class="btn btn-primary" id="reset-btn">Reset</button>
+   <button type="button"  onclick="" class="btn btn-primary" id="reset-btn"><strong>Reset</strong></button>
 
 <!--Where Timer Code Ends-->
  </div>

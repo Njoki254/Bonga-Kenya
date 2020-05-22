@@ -216,3 +216,11 @@ background-color:#F7BB0E;
 .panel-heading{
   background-color: #F7BB0E;
 }
+#footer{
+ 
+  background-color: rosybrown;
+  margin-top: 2%;
+  font-size: 20px;
+  color: black;
+
+}

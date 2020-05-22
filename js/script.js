@@ -22,23 +22,23 @@ var famousPeople = {
 };
 
 var musicians = {
-    1:"Akothee",
-    2:"Sauti Sol",
-    3:"Elani",
-    4:"Burna Boy",
-    5:"Beyonce",
-    6:"Willy Paul",
-    7:"JuaCali",
-    8:"Wahu",
-    9:"King Kaka",
-    10:"Diamond",
-    11:"Juliani",
+    1: "Akothee",
+    2: "Sauti Sol",
+    3: "Elani",
+    4: "Burna Boy",
+    5: "Beyonce",
+    6: "Willy Paul",
+    7: "JuaCali",
+    8: "Wahu",
+    9: "King Kaka",
+    10: "Diamond",
+    11: "Juliani",
     12: "Femione",
     13: "Kahush",
     14: "Willy Paul",
     15: "JuaCali",
     16: "Wahu",
-    17:"King Kaka",
+    17: "King Kaka",
     18: "Diamond"
 };
 
@@ -56,98 +56,98 @@ var animals = {
     1: "lion",
     2: "Girraffe",
     3: "Ostrich",
-    4:"dog",
+    4: "dog",
     5: "Cow",
     6: "Buffalo",
     7: "Zebra",
     8: "Wild beast",
     9: "Leopard",
     10: "Cheetah",
-    11:"Warthog",
+    11: "Warthog",
     12: "Mouse",
-    13:"Chicken"
+    13: "Chicken"
 };
 
 var cities = {
-    1:"Nairobi",
+    1: "Nairobi",
     2: "Mombasa",
     3: "Nakuru",
-    4:"Accra",
-    5:"Lagos",
-    6:"New York",
-    7:"London",
-    8:"Cape Town",
-    9:"Johannesburg",
+    4: "Accra",
+    5: "Lagos",
+    6: "New York",
+    7: "London",
+    8: "Cape Town",
+    9: "Johannesburg",
     10: "Washington DC",
     11: "Berlin",
-    12:"Frankfurt",
-    13:"Cairo",
-    14:"Addis Ababa",
-    15:"Kampala",
-    16:"Dar E Salam",
-    17:"Seattle",
-    18:"Kigali",
-    19:"Bujumbura"
+    12: "Frankfurt",
+    13: "Cairo",
+    14: "Addis Ababa",
+    15: "Kampala",
+    16: "Dar E Salam",
+    17: "Seattle",
+    18: "Kigali",
+    19: "Bujumbura"
 };
 
 var countries = {
     1: "UK",
     2: "US",
-    3:"Germany",
+    3: "Germany",
     4: "Netherlands",
-    5:"South Africa",
-    6:"Rwanda",
+    5: "South Africa",
+    6: "Rwanda",
     7: "Uganda",
-    8:"Sweden",
-    9:"Australia",
-    10:"Mauritius",
-    11:"Tanzania",
+    8: "Sweden",
+    9: "Australia",
+    10: "Mauritius",
+    11: "Tanzania",
     12: "Burundi",
-    13:"Canada",
-    14:"Egypt",
-    15:"Israel",
+    13: "Canada",
+    14: "Egypt",
+    15: "Israel",
     16: "Somalia",
     17: "Zimbambwe"
 };
 
 var sheng = {
-    1:"Arif",
+    1: "Arif",
     2: "Jaba",
-    3:"Tenje",
-    4:"Sonko",
-    5:"Rwabe",
-    6:"Nyuria",
-    7:"Mneti",
-    8:"Panch",
-    9:"Ngori",
-    10:"Mbogi",
-    11:"Manga",
-    12:"Ndai",
-    13:"Rieng",
-    14:"Form",
-    15:"Njege",
-    16:"karau",
-    17:"Ndom",
+    3: "Tenje",
+    4: "Sonko",
+    5: "Rwabe",
+    6: "Nyuria",
+    7: "Mneti",
+    8: "Panch",
+    9: "Ngori",
+    10: "Mbogi",
+    11: "Manga",
+    12: "Ndai",
+    13: "Rieng",
+    14: "Form",
+    15: "Njege",
+    16: "karau",
+    17: "Ndom",
     18: "Yengs",
     19: "Kuseti",
     20: "Lamba lolo",
     21: "Rangi ya thao",
-    22:  "Empress",
+    22: "Empress",
     23: "Mbongi",
     24: "Wamlambez"
 
 };
 var food = {
-    1:"Ugali",
-    2:"Githeri",
+    1: "Ugali",
+    2: "Githeri",
     3: "Pilau",
     4: "Nyama Choma",
-    5:"Chapati",
+    5: "Chapati",
     6: "Kachumbari",
     7: "Chips Mwitu",
     8: "Mutura",
     9: "Irio",
-    10:"Kamande"
+    10: "Kamande"
 };
 var landmarks = {
     1: "Maasai Mara",
@@ -283,6 +283,7 @@ function randomSelector() {
 
     return generatedWord;
 }
+
 function startGame() {
     document.getElementById('score-board').innerHTML = 0;
     randomSelector();
@@ -290,7 +291,6 @@ function startGame() {
 }
 
 /*==========================================================================================================================================*/
-=======
 
 //start of scoreboard code
 

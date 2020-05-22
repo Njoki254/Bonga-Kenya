@@ -1,12 +1,12 @@
 var famousPeople = {
     1: "Babu owino",
-    2: "Mammito", 
+    2: "Mammito",
     3: "Baba",
     4: "Uhuru",
-    5: "Kibaki", 
-    6: "Natalie Tewa", 
+    5: "Kibaki",
+    6: "Natalie Tewa",
     7: "Wangari Mathai",
-    8: "Obama", 
+    8: "Obama",
     9: "Mandela",
     9: "Tom Mboya",
     10: "Ruto",
@@ -17,7 +17,7 @@ var famousPeople = {
     15: "Njugush",
     16: "Churchill",
     17: "Matiangi",
-    18: "Saitoti", 
+    18: "Saitoti",
     19: "michuki"
 };
 
@@ -35,36 +35,36 @@ var musicians = {
     11:"Juliani",
     12: "Femione",
     13: "Kahush",
-    14: "Willy Paul", 
+    14: "Willy Paul",
     15: "JuaCali",
-    16: "wahu", 
-    17:"King Kaka", 
+    16: "wahu",
+    17:"King Kaka",
     18: "Diamond"
 };
 
 var music = {
-    1: "wamlambez", 
+    1: "wamlambez",
     2: "Bababa Banjuka…",
-    3: "accelerator", 
-    4: "KDF", 
+    3: "accelerator",
+    4: "KDF",
     5: "Bazokizo",
     6: "Utawezana",
     7: "Misiwezi"
 };
 
 var animals = {
-    1: "lion", 
+    1: "lion",
     2: "girraffe",
     3: "ostrich",
     4:"dog",
     5: "cow",
-    6: "buffalo", 
-    7: "zebra", 
+    6: "buffalo",
+    7: "zebra",
     8: "wild beast",
     9: "Leopard",
-    10: "Cheetah", 
+    10: "Cheetah",
     11:"Warthog",
-    12: "Mouse", 
+    12: "Mouse",
     13:"Chicken"
 };
 
@@ -72,20 +72,20 @@ var cities = {
     1:"Nairobi",
     2: "Mombasa",
     3: "Nakuru",
-    4:"Accra", 
-    5:"Lagos", 
+    4:"Accra",
+    5:"Lagos",
     6:"New York",
-    7:"London", 
-    8:"Cape Town", 
-    9:"Johannesburg", 
-    10: "Washington DC", 
-    11: "Berlin", 
-    12:"Frankfurt", 
+    7:"London",
+    8:"Cape Town",
+    9:"Johannesburg",
+    10: "Washington DC",
+    11: "Berlin",
+    12:"Frankfurt",
     13:"Cairo",
-    14:"Addis Ababa", 
-    15:"Kampala", 
+    14:"Addis Ababa",
+    15:"Kampala",
     16:"Dar E Salam",
-    17:"Seattle", 
+    17:"Seattle",
     18:"Kigali",
     19:"Bujumbura"
 };
@@ -94,17 +94,17 @@ var countries = {
     1: "UK",
     2: "US",
     3:"Germany",
-    4: "Netherlands", 
+    4: "Netherlands",
     5:"South Africa",
-    6:"Rwanda", 
+    6:"Rwanda",
     7: "Uganda",
-    8:"Sweden", 
-    9:"Australia", 
+    8:"Sweden",
+    9:"Australia",
     10:"Mauritius",
-    11:"Tanzania", 
+    11:"Tanzania",
     12: "Burundi",
-    13:"Canada", 
-    14:"Egypt", 
+    13:"Canada",
+    14:"Egypt",
     15:"Israel",
     16: "Somalia",
     17: "Zimbambwe"
@@ -118,14 +118,14 @@ var sheng = {
     5:"rwabe",
     6:"nyuria",
     7:"mneti",
-    8:"panch", 
+    8:"panch",
     9:"ngori",
     10:"mbogi",
     11:"manga",
     12:"ndai",
     13:"rieng",
     14:"form",
-    15:"njege", 
+    15:"njege",
     16:"karau",
     17:"Ndom",
     18: "Yengs",
@@ -135,7 +135,7 @@ var sheng = {
     22:  "Empress",
     23: "Mbongi",
     24: "Wamlambez"
-    
+
 };
 var food = {
     1:"Ugali",
@@ -180,51 +180,51 @@ var phrases = {
 var categories = [famousPeople, musicians, music, animals, cities, countries, sheng, food, landmarks, phrases];
 
 /*===========================================================Timer function=================================================================*/
-//set minutes 
+//set minutes
 var mins = 2;
 
-//calculate the seconds 
+//calculate the seconds
 var secs = mins * 60;
 
-//countdown function is evoked when page is loaded 
+//countdown function is evoked when page is loaded
 function countdown() {
     setTimeout('Decrement()', 60);
 }
 
-//Decrement function decrement the value. 
+//Decrement function decrement the value.
 function Decrement() {
     if (document.getElementById) {
         minutes = document.getElementById("minutes");
         seconds = document.getElementById("seconds");
 
-        //if less than a minute remaining 
-        //Display only seconds value. 
+        //if less than a minute remaining
+        //Display only seconds value.
         if (seconds < 59) {
             seconds.innerHTML = secs;
         }
 
-        //Display both minutes and seconds 
-        //getminutes and getseconds is used to 
-        //get minutes and seconds 
+        //Display both minutes and seconds
+        //getminutes and getseconds is used to
+        //get minutes and seconds
         else {
             minutes.innerHTML = getminutes();
             seconds.innerHTML = getseconds();
         }
-        //when less than a minute remaining 
-        //colour of the minutes and seconds 
-        //changes to red 
+        //when less than a minute remaining
+        //colour of the minutes and seconds
+        //changes to red
         if (mins < 1) {
             minutes.style.color = "red";
             seconds.style.color = "red";
         }
-        //if seconds becomes zero, 
-        //then page alert time up 
+        //if seconds becomes zero,
+        //then page alert time up
         if (mins < 0) {
             alert('time up');
             minutes.value = 0;
             seconds.value = 0;
         }
-        //if seconds > 0 then seconds is decremented 
+        //if seconds > 0 then seconds is decremented
         else {
             secs--;
             setTimeout('Decrement()', 1000);
@@ -233,14 +233,14 @@ function Decrement() {
 }
 
 function getminutes() {
-    //minutes is seconds divided by 60, rounded down 
+    //minutes is seconds divided by 60, rounded down
     mins = Math.floor(secs / 60);
     return mins;
 }
 
 function getseconds() {
-    //take minutes remaining (as seconds) away  
-    //from total seconds remaining 
+    //take minutes remaining (as seconds) away
+    //from total seconds remaining
     return secs - Math.round(mins * 60);
 }
 /*==========================================================================================================================================*/
@@ -284,7 +284,3 @@ function randomSelector() {
     return generatedWord;
 }
 /*==========================================================================================================================================*/
-function startGame() {
-    randomSelector();
-    countdown();
-}
